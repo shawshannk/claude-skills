@@ -12,6 +12,14 @@
       "version": "1.0.0",
       "author": { "name": "shawshannk" },
       "keywords": ["learning", "onboarding", "codebase", "skill"]
+    },
+    {
+      "name": "modular-project-builder",
+      "source": "./plugins/modular-project-builder",
+      "description": "Interview-driven project builder: turns an idea into a persistent spec and a modular plan, then implements one module per session so context never runs out.",
+      "version": "1.0.0",
+      "author": { "name": "shawshannk" },
+      "keywords": ["planning", "spec", "scaffolding", "context", "skill"]
     }
   ]
 }
