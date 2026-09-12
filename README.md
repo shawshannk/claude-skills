@@ -28,9 +28,17 @@ framework, library, or datastore is used in the repo you're in.
 
 ### modular-project-builder
 
-Interview-driven project builder. Turns an idea into a persistent spec (`SPEC.md`), a
+General-purpose project builder. Turns an idea into a persistent spec (`SPEC.md`), a
 modular implementation plan (`PLAN.md`), and progress tracking (`PROGRESS.md`), then
-implements one module per session so you never run out of context mid-build.
+implements manageable modules with clear handoffs across sessions.
+
+After the initial build, bugs, enhancements, and new features are recorded as modules
+or submodules in the same plan, with acceptance checks and progress notes. Every
+project task has a type, including investigation, maintenance, and documentation.
+The skill analyzes requests, develops vague ideas through focused Q&A, and triages
+bugs. “Not now” items go into a dedicated Backlog section in `PLAN.md` and remain
+deferred until requested. It infers routine classification and asks about unresolved
+decisions that affect the outcome.
 
 Invoke with `/modular-project-builder`, or say "let's build X", "new project", or
 "continue where we left off".

@@ -1,6 +1,6 @@
 {
   "name": "modular-project-builder",
-  "version": "1.0.0",
-  "description": "Interview-driven project builder: turns an idea into a persistent spec and a modular plan, then implements one module per session so context never runs out.",
+  "version": "1.1.0",
+  "description": "General-purpose project builder: analyzes ideas, plans and implements typed work items, triages bugs, and maintains a backlog and progress across sessions.",
   "author": { "name": "shawshannk" }
 }
