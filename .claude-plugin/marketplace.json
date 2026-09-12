@@ -1,0 +1,17 @@
+{
+  "name": "shawshannk",
+  "owner": {
+    "name": "shawshannk",
+    "url": "https://github.com/shawshannk"
+  },
+  "plugins": [
+    {
+      "name": "project-tech-learning",
+      "source": "./plugins/project-tech-learning",
+      "description": "Learn a technology from how it is actually used in the current codebase.",
+      "version": "1.0.0",
+      "author": { "name": "shawshannk" },
+      "keywords": ["learning", "onboarding", "codebase", "skill"]
+    }
+  ]
+}
