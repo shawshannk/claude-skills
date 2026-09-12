@@ -1,5 +1,6 @@
 {
   "name": "shawshannk",
+  "description": "Claude Code skills for learning a codebase's tech stack and for planning and building projects module by module.",
   "owner": {
     "name": "shawshannk",
     "url": "https://github.com/shawshannk"
@@ -10,16 +11,31 @@
       "source": "./plugins/project-tech-learning",
       "description": "Learn a technology from how it is actually used in the current codebase.",
       "version": "1.0.0",
-      "author": { "name": "shawshannk" },
-      "keywords": ["learning", "onboarding", "codebase", "skill"]
+      "author": {
+        "name": "shawshannk"
+      },
+      "keywords": [
+        "learning",
+        "onboarding",
+        "codebase",
+        "skill"
+      ]
     },
     {
       "name": "modular-project-builder",
       "source": "./plugins/modular-project-builder",
       "description": "Interview-driven project builder: turns an idea into a persistent spec and a modular plan, then implements one module per session so context never runs out.",
       "version": "1.0.0",
-      "author": { "name": "shawshannk" },
-      "keywords": ["planning", "spec", "scaffolding", "context", "skill"]
+      "author": {
+        "name": "shawshannk"
+      },
+      "keywords": [
+        "planning",
+        "spec",
+        "scaffolding",
+        "context",
+        "skill"
+      ]
     }
   ]
 }

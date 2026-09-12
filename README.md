@@ -54,3 +54,7 @@ cp -r claude-skills/plugins/*/skills/* ~/.claude/skills/
 2. `plugins/<name>/skills/<name>/SKILL.md` — the skill itself (plus any `references/`,
    `scripts/`, or other files it loads)
 3. Append an entry to the `plugins` array in `.claude-plugin/marketplace.json`
+
+## License
+
+MIT — see [LICENSE](LICENSE).
